@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|e:\\lessons\\stone scissors paper\\stonescissorspaper\\stonescissorspaper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|e:\\lessons\\stone scissors paper\\stonescissorspaper\\stonescissorspaper\\graphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|solutionrelative:graphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Graphics.cs",
+              "DocumentMoniker": "E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\Graphics.cs",
+              "RelativeDocumentMoniker": "Graphics.cs",
+              "ToolTip": "E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\Graphics.cs",
+              "RelativeToolTip": "Graphics.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwCMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T15:27:08.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T14:03:49.969Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

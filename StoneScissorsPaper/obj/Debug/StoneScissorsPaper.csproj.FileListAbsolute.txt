@@ -1,0 +1,7 @@
+E:\Lessons\Stone Scissors Paper\StoneScissorsPaper\StoneScissorsPaper\bin\Debug\StoneScissorsPaper.exe.config
+E:\Lessons\Stone Scissors Paper\StoneScissorsPaper\StoneScissorsPaper\bin\Debug\StoneScissorsPaper.exe
+E:\Lessons\Stone Scissors Paper\StoneScissorsPaper\StoneScissorsPaper\bin\Debug\StoneScissorsPaper.pdb
+E:\Lessons\Stone Scissors Paper\StoneScissorsPaper\StoneScissorsPaper\obj\Debug\StoneScissorsPaper.csproj.AssemblyReference.cache
+E:\Lessons\Stone Scissors Paper\StoneScissorsPaper\StoneScissorsPaper\obj\Debug\StoneScissorsPaper.csproj.CoreCompileInputs.cache
+E:\Lessons\Stone Scissors Paper\StoneScissorsPaper\StoneScissorsPaper\obj\Debug\StoneScissorsPaper.exe
+E:\Lessons\Stone Scissors Paper\StoneScissorsPaper\StoneScissorsPaper\obj\Debug\StoneScissorsPaper.pdb
