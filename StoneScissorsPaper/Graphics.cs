@@ -34,5 +34,34 @@ namespace StoneScissorsPaper
                               $"  |         |  |         | \n" +
                               $"{f}{f}|         |  |         |{f}{f}");
         }
+
+        public static string ImgStone()
+        {
+            char f = '▀';
+            char e = (char)92;
+            return ($"  __\n" +
+                    $" /  {e}\n" +
+                    $" {e}  /\n" +
+                    $"  {f}{f}\n");
+        }
+        public static string ImgScissors() 
+        {
+
+            char a = '║';
+            return ($" ___   \n" +
+                    $"(_{a}_)\n" +
+                    $"  {a}    \n" +
+                    $"  {a}    \n");
+
+        }
+
+        public static string ImgPaper()
+        {
+
+            return ($"  __\n" +
+                    $" /  /\n" +
+                    $"/__/\n");
+        }
+
     }
 }
