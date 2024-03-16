@@ -62,6 +62,24 @@ namespace StoneScissorsPaper
                     $" /  /\n" +
                     $"/__/\n");
         }
+        public static string ImgMonster() 
+        {
+            char a = '┐';
+            char b = '├';
+            char c = '┤';
+            char d = '┌';
+            char e = (char)92;
+           
+            return ($"        {a}  {d}\n" +
+                    $"      ({e}{b}__{c}/)\n" +
+                    $"       (_oo_)\n" +
+                    $"        (O)\n" +
+                    $"       __||__    {e})\n" +
+                    $"    []/______{e}[]/\n" +
+                    $"    / {e}______/{e}/\n" +
+                    $"   /    /__{e}\n" +
+                    $"  (\\   /____{e}\n");
+        }
 
     }
 }

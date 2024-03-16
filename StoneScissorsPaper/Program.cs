@@ -10,11 +10,14 @@ namespace StoneScissorsPaper
     {
         static void Main(string[] args)
         {
-
+            
             bool wrongWeapon;
             int trys = 0;
             int wins = 0;
+            int healthMonster = 2;
+            int healthPlayer = 2;
             string playerWeapon;
+            Weapons monsterWeapon;
             string readyOrNot;
             Graphics.BuildCastle();
 
@@ -36,7 +39,7 @@ namespace StoneScissorsPaper
                     $" Attempts to win:{trys} \n Victories:{wins}");
             }
 
-            Console.Write($"\n-It`s time to begin your journey! Are you ready,{playerName}? \n-");
+            Console.Write($"\n-It`s time to begin your journey! Are you ready,{playerName}?\n");
 
             do
             {
@@ -56,8 +59,8 @@ namespace StoneScissorsPaper
             
             
             Console.WriteLine($"\n-Unfortunately VIRUSTER destroyed all our mighty artifacts.\n" +
-                $" So you have to choose among these three items:\n-{Weapon.Stone}\n{Graphics.ImgStone()}\n" +
-                $"-{Weapon.Scissors}\n{Graphics.ImgScissors()}\n-{Weapon.Paper}\n{Graphics.ImgPaper()}\n\n" +
+                $" So you have to choose among these three items:\n-{Weapons.Stone}\n{Graphics.ImgStone()}\n" +
+                $"-{Weapons.Scissors}\n{Graphics.ImgScissors()}\n-{Weapons.Paper}\n{Graphics.ImgPaper()}\n\n" +
                 $"-There is also good news. VIRUSTER uses the same weapons, so your chances are equal.\n" +
                 $" And remember one thing:\n " +
                 $" !'STONE>SCISSORS>PAPER>STONE'!");
@@ -79,19 +82,69 @@ namespace StoneScissorsPaper
             switch ( playerWeapon )
             {
                 case "stone":
-                    playerWeapon = (Weapon.Stone).ToString();
+                    playerWeapon = (Weapons.Stone).ToString();
                     break;
                 case "scissors":
-                    playerWeapon = (Weapon.Scissors).ToString();
+                    playerWeapon = (Weapons.Scissors).ToString();
                     break;
                 case "paper":
-                    playerWeapon = (Weapon.Paper).ToString();
+                    playerWeapon = (Weapons.Paper).ToString();
                     break;
             }
 
+            Console.WriteLine($"\nNow you are armed with {playerWeapon} and ready to go.\n" +
+                              $"Just outside the castle walls you meet a VIRUSTER\n{Graphics.ImgMonster()}");
+
+                        
+            for (;healthMonster!=0 && healthPlayer != 0;)
+            {
+                Random rnd = new Random();
+                int randomWeapon = rnd.Next(0, 3);
+                monsterWeapon = (Weapons)randomWeapon;
+
+                if (monsterWeapon == Weapons.Stone && playerWeapon == "Scissors") 
+                {
+                    healthPlayer -= 1;
+                    Console.WriteLine("You take damage!");
+                }
+                else if (monsterWeapon == Weapons.Stone && playerWeapon == "Paper") 
+                {
+                    healthMonster -= 1;
+                    Console.WriteLine("VIRUSTER takes damage!");
+                }
+                else if (monsterWeapon == Weapons.Scissors && playerWeapon == "Paper") 
+                {
+                    healthPlayer -= 1;
+                    Console.WriteLine("You take damage!");
+                }
+                else if (monsterWeapon == Weapons.Scissors && playerWeapon == "Stone") 
+                {
+                    healthMonster -= 1;
+                    Console.WriteLine("VIRUSTER takes damage!");
+                }
+                else if (monsterWeapon == Weapons.Paper && playerWeapon == "Stone")
+                {
+                    healthPlayer -= 1;
+                    Console.WriteLine("You take damage!");
+                }
+                else if (monsterWeapon == Weapons.Paper && playerWeapon == "Scissors")
+                {
+                    healthMonster -= 1;
+                    Console.WriteLine("VIRUSTER takes damage!");
+                }
+                else
+                {
+                    Console.WriteLine("You both miss");
+                   
+                }
+
+            }
+            trys++;
+            Console.WriteLine($"Trys:{trys}");
+            Console.WriteLine($"Monster{healthMonster}  Player{healthPlayer}");
 
 
-            Console.WriteLine(playerWeapon);
+
 
             
             
