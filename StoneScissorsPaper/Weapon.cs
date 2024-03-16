@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace StoneScissorsPaper
 {
-         public enum Weapon
-         {
-            Stone,
-            Scissors,
-            Paper
-         }
+    public enum Weapons
+    {
+        Stone,
+        Scissors,
+        Paper
+    }
+    
+            
     
 }
