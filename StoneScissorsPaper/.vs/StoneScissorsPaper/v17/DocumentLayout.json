@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|solutionrelative:weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|e:\\lessons\\stone scissors paper\\stonescissorspaper\\stonescissorspaper\\phrases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|solutionrelative:phrases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\graphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|solutionrelative:graphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|solutionrelative:weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Phrases.cs",
+              "DocumentMoniker": "E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\Phrases.cs",
+              "RelativeDocumentMoniker": "Phrases.cs",
+              "ToolTip": "E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\Phrases.cs",
+              "RelativeToolTip": "Phrases.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T10:20:22.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Weapon.cs",
               "DocumentMoniker": "E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\Weapon.cs",
               "RelativeDocumentMoniker": "Weapon.cs",
@@ -45,7 +62,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAkwI8AAABPAAAA",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAgwJcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T14:03:49.969Z",
               "EditorCaption": ""
@@ -58,7 +75,7 @@
               "RelativeDocumentMoniker": "Graphics.cs",
               "ToolTip": "E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\Graphics.cs",
               "RelativeToolTip": "Graphics.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAArAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwFAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T15:27:08.843Z",
               "EditorCaption": ""

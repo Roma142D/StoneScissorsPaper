@@ -140,8 +140,16 @@ namespace StoneScissorsPaper
 
             }
             trys++;
-            Console.WriteLine($"Trys:{trys}");
-            Console.WriteLine($"Monster{healthMonster}  Player{healthPlayer}");
+            
+            if (healthMonster == 0) 
+            {
+                wins++;
+                Console.WriteLine(Phrases.CongratPhrases());
+            }
+            else if (healthPlayer == 0) 
+            {
+                Console.WriteLine(Phrases.MotivationalPhrases());
+            }
 
 
 
