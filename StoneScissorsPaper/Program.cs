@@ -35,8 +35,10 @@ namespace StoneScissorsPaper
             }
             else
             {
-                Console.WriteLine($"-OK,{playerName}! Here`s your hero journal: \n Name:{playerName} \n Age:{playerAge} \n" +
-                    $" Attempts to win:{trys} \n Victories:{wins}");
+                Console.WriteLine($"-OK,{playerName}! Here`s your hero journal: \n ---------------\n" +
+                    $" |Name:{playerName} \n |Age:{playerAge} \n" +
+                    $" |Attempts to win:{trys} \n |Victories:{wins}\n" +
+                    $" ---------------");
             }
 
             Console.Write($"\n-It`s time to begin your journey! Are you ready,{playerName}?\n");
@@ -56,8 +58,8 @@ namespace StoneScissorsPaper
                 return;
             }
 
-            
-            
+
+            Console.WriteLine("\n-----{Beginning of the Journey}-----");
             Console.WriteLine($"\n-Unfortunately VIRUSTER destroyed all our mighty artifacts.\n" +
                 $" So you have to choose among these three items:\n-{Weapons.Stone}\n{Graphics.ImgStone()}\n" +
                 $"-{Weapons.Scissors}\n{Graphics.ImgScissors()}\n-{Weapons.Paper}\n{Graphics.ImgPaper()}\n\n" +
@@ -92,6 +94,7 @@ namespace StoneScissorsPaper
                     break;
             }
 
+            Console.WriteLine("\n-----{FIGHT!}-----");
             Console.WriteLine($"\nNow you are armed with {playerWeapon} and ready to go.\n" +
                               $"Just outside the castle walls you meet a VIRUSTER\n{Graphics.ImgMonster()}");
 
@@ -139,6 +142,9 @@ namespace StoneScissorsPaper
                 }
 
             }
+
+            Console.WriteLine("\n-----{Battle is over}-----\n");
+            
             trys++;
             
             if (healthMonster == 0) 
@@ -150,6 +156,8 @@ namespace StoneScissorsPaper
             {
                 Console.WriteLine(Phrases.MotivationalPhrases());
             }
+
+
 
 
 

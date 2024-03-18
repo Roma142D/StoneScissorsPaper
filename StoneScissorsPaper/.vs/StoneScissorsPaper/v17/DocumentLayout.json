@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|e:\\lessons\\stone scissors paper\\stonescissorspaper\\stonescissorspaper\\phrases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\phrases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DE80494-5C5A-4432-9933-B84E148AB277}|StoneScissorsPaper.csproj|solutionrelative:phrases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Phrases.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T10:20:22.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T10:20:22.499Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "Weapon.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T10:52:18.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-16T10:52:18.231Z"
             },
             {
               "$type": "Document",
@@ -62,7 +60,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\Lessons\\Stone Scissors Paper\\StoneScissorsPaper\\StoneScissorsPaper\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAIIAAAAAAAAAAAAgwJcAAAANAAAA",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAgwJ0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T14:03:49.969Z",
               "EditorCaption": ""
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Graphics.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAgwFAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T15:27:08.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-15T15:27:08.843Z"
             }
           ]
         }
