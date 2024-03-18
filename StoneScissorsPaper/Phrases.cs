@@ -19,7 +19,7 @@ namespace StoneScissorsPaper
                 "-You won and deserve a reward! All ale in the kingDOS is Yours!"
             };
 
-            return (CongratPhrases[rnd.Next(0, 3)]);
+            return (CongratPhrases[rnd.Next(0, CongratPhrases.Length)]);
         }
         public static string MotivationalPhrases () 
         {
@@ -32,7 +32,32 @@ namespace StoneScissorsPaper
                 "-This time you`ve been defeated. But it`s not time to give up, You have to beat the VIRUSTER!"
             };
 
-            return (MotivationalPhrases[rnd.Next(0, 3)]);
+            return (MotivationalPhrases[rnd.Next(0, MotivationalPhrases.Length)]);
+        }
+        public static string QuestionAfterWin() 
+        {
+            Random rnd = new Random ();
+
+            string[] Questions =
+            {
+                "\n-Now if you want, you can go back and beat VIRUSTER one more time!\n-Do you want?",
+                "\n-Just say 'Yes' if you want to destroy VIRUSTER again (>_0) !"
+            };
+
+            return (Questions[rnd.Next(0, Questions.Length)]);
+        }
+        public static string QuestionAfterLoss() 
+        {
+            Random rnd = new Random ();
+
+            string[] Questions =
+            {
+                "\n-Want to try again?",
+                "\n-Wanna do it again with another weapon? Just say 'Yes'",
+                "\n-Let`s try again! Are you ready?"
+            };
+
+            return (Questions[rnd.Next(0, Questions.Length)]);
         }
     }
 }
