@@ -17,9 +17,12 @@ namespace StoneScissorsPaper
             int wins = 0;
             int healthMonster;
             int healthPlayer;
+            int playerAge;
             string readyOrNot;
             string restart = "";
             string playerWeapon;
+            string playerName;
+            string playerAgeString;
             Weapons monsterWeapon;
 
 
@@ -27,10 +30,33 @@ namespace StoneScissorsPaper
 
             Console.WriteLine("-Greetings! Have you come to defeat the VIRUSTER?");
             Console.Write("-So, what is your name, hero? \n-");
-            var playerName = Console.ReadLine();
-            Console.Write("-How old are you? \n-");
-            var playerAge = int.Parse(Console.ReadLine());
+            do
+            {
+                playerName = Console.ReadLine();
+                
+                if (playerName == "") 
+                {
+                    Console.Write("-Plese, say your name! \n-");
+                }
+                
+            }
+            while (playerName == "");
 
+            Console.Write("-How old are you? \n-");
+            do
+            {
+                playerAgeString = Console.ReadLine();
+
+                if (playerAgeString == "")
+                {
+                    Console.Write("-You're trying to fool me? How old are you truly?\n-");
+                }
+
+            }
+            while (playerAgeString == "");
+
+            playerAge = int.Parse(playerAgeString);
+            
             if (playerAge < 12)
             {
                 Console.WriteLine("-Sorry, you`re too young to defeat the VIRUSTER! \n" +
